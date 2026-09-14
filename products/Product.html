@@ -2,12 +2,25 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Products</title>
+        <meta 
+          name="viewport"
+          content="width=divice-width,initial-scale=1.0"
+        />
+        <title>Product | Online Store</title>
+         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Products</h1>
-        <input type="text" id="searchInput" placeholder="Search products...">
+        <header class="header-css">
+          <h1 class="title">Online Store</h1>
+          <nav class="navigation">
+             <a href="index.html">Products</a>
+             <a href="./products/Product.html">Product</a>
+          </nav>
+        </header>
 
+        <main class="container">
+            <h2>Product</h2>
+        
         <div class="products-container">
             <div class="product" >
              <img src="product1.jpg" >
@@ -30,5 +43,6 @@
              <button class="add-to-cart">Add to Cart</button>
             </div>
         </div>
+        </main>
     </body>
 </html>
