@@ -1,9 +1,9 @@
-export const prodectsDetails = [
+export const productsDetails = [
     {
         id: 1,
         name: 'T-Shirt',
         price: 15,
-
+        
     },
     {
         id: 2,
