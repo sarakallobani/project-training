@@ -1,5 +1,7 @@
 import { productsDetails } from './Product-details.js';
 
+const ProductsContainer = document.querySelector('#products-container');
+
 function renderProducts() {
     const Products = getProducts();
     

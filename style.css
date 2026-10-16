@@ -13,7 +13,7 @@ body {
     font-size: 16px;
 }
 
-header-css {
+.site-header {
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -21,21 +21,23 @@ header-css {
     margin: 0;
 }
 
-navigation {
+.navigation {
     display: flex;
 }
 
-navigation a {
+.navigation a {
     color: #ffffff;
     text-decoration: none;
     padding: 10px 15px;
 }
 
-container {
+.poduct-container {
     width: 90%;
     max-width: 1200px;
     margin: 30px auto;
     padding: 20px;
 }
 
-title {}
+.site-title {
+
+}
